@@ -5,4 +5,4 @@
     pip install google-api-python-client
     update.py
 
-[Create](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#uploading-your-csv-file) or [update](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#uploading-your-csv-file) the [glossaries](/glossaries) on [Transifex](https://www.transifex.com/OpenDataServices/).
+[Create](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#uploading-your-csv-file) or [update](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#updating-an-existing-glossary) the [glossaries](/glossaries) on [Transifex](https://www.transifex.com/OpenDataServices/).
