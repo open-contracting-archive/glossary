@@ -1,0 +1,112 @@
+term,pos,comment
+abatement,Noun,
+accountability,Noun,
+amendment,Noun,"A tender amendment is a formal change to the tender, and generally involves the publication of a new tender notice/release."
+amount,Noun,
+array,Noun,A list of values in a data structure.
+assessment,Noun,
+award,Noun,
+award notice,Noun,
+bid,Noun,
+bid,Verb,
+bidder,Noun,
+bidding documents,Noun,Documents sent by the bidder to bid for a contract.
+budget,Noun,A sum of money dedicated to a specific purpose.
+budget data package,Noun,
+budget line item,Noun,
+building block,Noun,
+bulk data,Noun,
+buyer,Noun,The buyer is the entity whose budget will be used to purchase the goods. This may be different from the procuring entity who may be specified in the tender data.
+classification,Noun,"A system to categorize goods, organizations, services, etc."
+codelist,Noun,
+community extension,Noun,OCDS extension that is not developed and maintained by the OCP.
+competitive dialogue,Noun,
+complaint,Noun,
+conformance,Noun,
+contract,Noun,"A document that, once agreed and signed by all parties, legally binds them."
+contract notice,Noun,
+contracting body,Noun,
+contracting data,Noun,
+contracting process,Noun,http://standard.open-contracting.org/1.1/en/getting_started/contracting_process/
+core,Adjective,"TO BE DELETED, it's too generic. See dedicated terms ""core block"", ""core extension"", etc."
+core block,Noun,"A block of data that is part of the core standard, as opposed to blocks introduced by extensions."
+core extension,Noun,OCDS extension that is part of the OCDS standard and maintained by the OCP.
+criterion,Noun,
+Currency,Noun,The currency for each amount should always be specified using the uppercase 3-letter currency code from ISO4217.
+data,Noun,
+data model,Noun,
+data publisher,Noun,
+deprecated,Adjective,
+document,Noun,
+electronic auction,Noun,
+enquiry,Noun,
+equity,Noun,
+evaluation,Noun,
+extension,Noun,
+flattened data,Noun,
+Former Value,Noun,
+gazetteer,Noun,
+globally unique identifier,Noun,
+good,Noun,
+identifier,Noun,A string a characters that uniquely identifies an entity.
+implementation,Noun,
+initiation type,Noun,
+language,Noun,
+limited tender,Noun,A tender that is only advertised to a limited number of potential bidders.
+line item,Noun,
+map,Verb,Action of matching the members of two lists.
+mapping,Noun,Activity of matching the members of two lists.
+mapping template,Noun,
+milestone,Noun,
+monitoring,Noun,
+open contracting,Noun,
+open contracting data,Noun,
+open contracting data standard (OCDS),Noun,
+ownership,Noun,
+package,Noun,A set of OCDS releases or records.
+parties,Noun,Each of the parties (organizations or other participants) referenced in a release must be included in the parties section.
+payee,Noun,
+planning,Noun,
+procurement,Noun,
+procurement method,Noun,
+procurement pipeline,Noun,
+procuring agency,Noun,
+procuring entity,Noun,"The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured."
+public contract,Noun,
+public contracting,Noun,
+Public Private Partnership,Noun,
+public procurement,Noun,
+publication pattern,Noun,
+publisher,Noun,
+rationale,Noun,
+record,Noun,
+red flag,Noun,
+relationship,Noun,
+release,Noun,
+restricted procedure,Noun,
+reusable tools,Noun,
+review body,Noun,
+role,Noun,
+schema,Noun,
+schema reference,Noun,"More or less synonym of ""documentation""."
+service,Noun,
+signatory,Noun,
+standard,Noun,"""A rule or set of rules or requirements which are widely agreed upon or imposed by government."" (Wiktionary)"
+standing offer,Noun,
+status,Noun,
+string,Noun,
+subcontract,Noun,
+subcontractor,Noun,
+supplier,Noun,
+tag,Noun,
+tender,Noun,
+tender notice,Noun,
+tenderer,Noun,
+tendering organization,Noun,
+transaction,Noun,
+unique indentifier,Noun,
+use case,Noun,
+valid,Adjective,
+validation,Noun,Validation involves a technical check on the way data is structured and formatted. http://standard.open-contracting.org/1.1/en/getting_started/validation/ 
+validator,Noun,
+works,Noun,As opposed to the other types of deliverables that are services and goods.
