@@ -1,112 +1,112 @@
-term,pos,comment,es_CL,comment_es_CL
-abatement,Noun,,reducción,
-accountability,Noun,,,
-amendment,Noun,"A tender amendment is a formal change to the tender, and generally involves the publication of a new tender notice/release.",modificaciones,
-amount,Noun,,,
-array,Noun,A list of values in a data structure.,lista,
-assessment,Noun,,evaluación,?
-award,Noun,,adjudicación,"El término es correcto sólo para licitaciones, en otros casos el concepto es selección del proveedor"
-award notice,Noun,,notificación  de adjudicación,
-bid,Noun,,oferta,Podría ser también cotización en procesos menos formales a licitación
-bid,Verb,,oferta,Podría ser también cotización en procesos menos formales a licitación
-bidder,Noun,,oferente,
-bidding documents,Noun,Documents sent by the bidder to bid for a contract.,documentos de la oferta,
-budget,Noun,A sum of money dedicated to a specific purpose.,presupuesto,en nuestro caso existe concepto de disponible y máximo
-budget data package,Noun,,?,
-budget line item,Noun,,Partida,"Considerando que el presupuesto de la nación se construye en la lógica Subtítulo, Item, Asignación"
-building block,Noun,,,?
-bulk data,Noun,,,
-buyer,Noun,The buyer is the entity whose budget will be used to purchase the goods. This may be different from the procuring entity who may be specified in the tender data.,comprador,
-classification,Noun,"A system to categorize goods, organizations, services, etc.",Clasificación,
-codelist,Noun,,lista de codigo,
-community extension,Noun,OCDS extension that is not developed and maintained by the OCP.,Extensión de la comunidad,
-competitive dialogue,Noun,,,no utilizamos esa modalidad
-complaint,Noun,,recurso,en Chile se refiere a los reclamos
-conformance,Noun,,,
-contract,Noun,"A document that, once agreed and signed by all parties, legally binds them.",contrato,
-contract notice,Noun,,Notificación de contrato,
-contracting body,Noun,,,
-contracting data,Noun,,datos del contrato,
-contracting process,Noun,http://standard.open-contracting.org/1.1/en/getting_started/contracting_process/,Proceso de contratación,Recordar que en casos de montos menores la OC puede constituir el contrato
-core,Adjective,"TO BE DELETED, it's too generic. See dedicated terms ""core block"", ""core extension"", etc.",central,
-core block,Noun,"A block of data that is part of the core standard, as opposed to blocks introduced by extensions.",?,
-core extension,Noun,OCDS extension that is part of the OCDS standard and maintained by the OCP.,?,
-criterion,Noun,,criterio,
-Currency,Noun,The currency for each amount should always be specified using the uppercase 3-letter currency code from ISO4217.,Moneda,
-data,Noun,,,
-data model,Noun,,,
-data publisher,Noun,,,
-deprecated,Adjective,,descontinuado,
-document,Noun,,,
-electronic auction,Noun,,subasta electrónica,
-enquiry,Noun,,consulta,
-equity,Noun,,capital,En el contexto financiero está correcto
-evaluation,Noun,,Evaluación,
-extension,Noun,,extensión,no se refiere al caso de adenda o extensiones de contrato
-flattened data,Noun,,,
-Former Value,Noun,,Valor anterior,Esto se refiere a un atributo genérico modificado en una adenda
-gazetteer,Noun,,diccionario geográfico,diccionario georeferenciado
-globally unique identifier,Noun,,,
-good,Noun,,Bienes,
-identifier,Noun,A string a characters that uniquely identifies an entity.,,
-implementation,Noun,,ejecución,
-initiation type,Noun,,"procedencia, tipo de proceso",según estándar OCP
-language,Noun,,idioma,
-limited tender,Noun,A tender that is only advertised to a limited number of potential bidders.,licitación privada,
-line item,Noun,,Línea de producto,
-map,Verb,Action of matching the members of two lists.,?,
-mapping,Noun,Activity of matching the members of two lists.,Mapeo de modalidades,Match entre la modalidad del país y el estándar
-mapping template,Noun,,,
-milestone,Noun,,hito,Estados de las documentos
-monitoring,Noun,,Monitoreo,
-open contracting,Noun,,,
-open contracting data,Noun,,,
-open contracting data standard (OCDS),Noun,,,
-ownership,Noun,,Propietarios,
-package,Noun,A set of OCDS releases or records.,,
-parties,Noun,Each of the parties (organizations or other participants) referenced in a release must be included in the parties section.,,
-payee,Noun,,Receptor del pago,
-planning,Noun,,planificación,
-procurement,Noun,,compras,
-procurement method,Noun,,Modalidad de contratación,
-procurement pipeline,Noun,,Lineas estrátegicas de compras,
-procuring agency,Noun,,Organismo comprador,
-procuring entity,Noun,"The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured.",,
-public contract,Noun,,Contrato,
-public contracting,Noun,,,
-Public Private Partnership,Noun,,alianza público privada,Asociadas a acuerdos de colaboración
-public procurement,Noun,,compras públicas,
-publication pattern,Noun,,Estándar de públicación,se refiere al nivel
-publisher,Noun,,publicador,
-rationale,Noun,,justificación,
-record,Noun,,registro,
-red flag,Noun,,,
-relationship,Noun,,"Vinculación, relación",en el contexto de relación de datos
-release,Noun,,entrega,
-restricted procedure,Noun,,proceso excepcional,
-reusable tools,Noun,,,
-review body,Noun,,cuerpo de revisión,"Experto, situación excepcional"
-role,Noun,,rol,
-schema,Noun,,,
-schema reference,Noun,"More or less synonym of ""documentation"".",,
-service,Noun,,servicios,
-signatory,Noun,,firmante,
-standard,Noun,"""A rule or set of rules or requirements which are widely agreed upon or imposed by government."" (Wiktionary)",estándar,
-standing offer,Noun,,convenio de suministros,
-status,Noun,,estado,
-string,Noun,,cadena,
-subcontract,Noun,,subcontratación,
-subcontractor,Noun,,subcontratista,
-supplier,Noun,,proveedor,
-tag,Noun,,etiqueta,
-tender,Noun,,Licitación,
-tender notice,Noun,,Aviso de publicación,
-tenderer,Noun,,comprador,
-tendering organization,Noun,,organización compradora,
-transaction,Noun,,Transacción,
-unique indentifier,Noun,,identificador único,
-use case,Noun,,,
-valid,Adjective,,valido,
-validation,Noun,Validation involves a technical check on the way data is structured and formatted. http://standard.open-contracting.org/1.1/en/getting_started/validation/ ,Validación,
-validator,Noun,,validador,
-works,Noun,As opposed to the other types of deliverables that are services and goods.,trabajo,
+term,pos,comment,es_CL
+abatement,Noun,,reducción
+accountability,Noun,,
+amendment,Noun,"A tender amendment is a formal change to the tender, and generally involves the publication of a new tender notice/release.",modificaciones
+amount,Noun,,
+array,Noun,A list of values in a data structure.,lista
+assessment,Noun,,evaluación
+award,Noun,,adjudicación
+award notice,Noun,,notificación  de adjudicación
+bid,Noun,,oferta
+bid,Verb,,oferta
+bidder,Noun,,oferente
+bidding documents,Noun,Documents sent by the bidder to bid for a contract.,documentos de la oferta
+budget,Noun,A sum of money dedicated to a specific purpose.,presupuesto
+budget data package,Noun,The fiscal data package (previously named the budget data package) is an open technical specification created by Open Knowledge International's Frictionless Data project for government budget and spending data.,?
+budget line item,Noun,,Partida
+building block,Noun,"Common concepts that may occur at multiple points in an OCDS file (e.g. values, items, time periods) and for a common data structure is given.",
+bulk data,Noun,"Bulk data is packaged to allow a user to access all the available data through a small number of downloadable files (often a single download). By contrast, non-bulk data data may be accessed in the form of individual releases, or through an API that provides paginated access to data, requiring multiple API calls to access all available data.   ",
+buyer,Noun,The buyer is the entity whose budget will be used to purchase the goods. This may be different from the procuring entity who may be specified in the tender data.,comprador
+classification,Noun,"A system to categorize goods, organizations, services, etc.",Clasificación
+codelist,Noun,"A list of possible values for a given field, each consisting of a machine readable code, and a human readable title and description. When a field uses a closed codelist, values MUST come from the codelist. When a field uses an open codelist, values SHOULD come from the codelist unless there is a good reason to use other values.",lista de codigo
+community extension,Noun,"An extension created to meet user needs articulated by one or more members of the Open Contracting community, but which is not (yet) considered to be an essential part of OCDS publication. There is no commitment from OCP to maintain this extension on an ongoing basis and it may have had limited OCP input into it's creation. ",Extensión de la comunidad
+competitive dialogue,Noun,,
+complaint,Noun,,recurso
+conformance,Noun,How well a dataset meets the open contracting data standard. A full evaluation of conformance invovles checking both the syntax (validation) and semantics (alignment of term use) of a dataset. ,
+contract,Noun,"A document that, once agreed and signed by all parties, legally binds them.",contrato
+contract notice,Noun,,Notificación de contrato
+contracting body,Noun,,
+contracting data,Noun,"Data relating to any aspect of the contracting process, as defined in OCDS, including planning, tender, award, contract and implementation.",datos del contrato
+contracting process,Noun,http://standard.open-contracting.org/1.1/en/getting_started/contracting_process/,Proceso de contratación
+core,Adjective,"Central to OCDS. We use core to refer to those components of the standard maintained by the Open Contracting Parntership, and which form the essential parts of OCDS.",central
+core block,Noun,"A building block that is part of the standard schema, as opposed to building blocks introduced by extensions.",?
+core extension,Noun,OCDS extension that is part of the OCDS standard and maintained by the OCP.,?
+criterion,Noun,,criterio
+Currency,Noun,The currency for each amount should always be specified using the uppercase 3-letter currency code from ISO4217.,Moneda
+data,Noun,"Structured, machine readable, data. ",
+data model,Noun,,
+data publisher,Noun,,
+deprecated,Adjective,Usage of deprecated fields is discouraged because they are scheduled to be removed from the standard in a future update.,descontinuado
+document,Noun,,
+electronic auction,Noun,,subasta electrónica
+enquiry,Noun,,consulta
+equity,Noun,,capital
+evaluation,Noun,,Evaluación
+extension,Noun,,extensión
+flattened data,Noun,"Data that is in a flat, table like structure.",
+Former Value,Noun,,Valor anterior
+gazetteer,Noun,,diccionario geográfico
+globally unique identifier,Noun,,
+good,Noun,,Bienes
+identifier,Noun,A string a characters that uniquely identifies an entity.,
+implementation,Noun,,ejecución
+initiation type,Noun,,"procedencia, tipo de proceso"
+language,Noun,,idioma
+limited tender,Noun,A tender that is only advertised to a limited number of potential bidders.,licitación privada
+line item,Noun,,Línea de producto
+map,Verb,Action of matching the members of two lists.,?
+mapping,Noun,Activity of matching the members of two lists.,Mapeo de modalidades
+mapping template,Noun,,
+milestone,Noun,,hito
+monitoring,Noun,,Monitoreo
+open contracting,Noun,,
+open contracting data,Noun,,
+open contracting data standard (OCDS),Noun,,
+ownership,Noun,,Propietarios
+package,Noun,A set of OCDS releases or records.,
+parties,Noun,Each of the parties (organizations or other participants) referenced in a release must be included in the parties section.,
+payee,Noun,,Receptor del pago
+planning,Noun,,planificación
+procurement,Noun,,compras
+procurement method,Noun,,Modalidad de contratación
+procurement pipeline,Noun,,Lineas estrátegicas de compras
+procuring agency,Noun,,Organismo comprador
+procuring entity,Noun,"The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured.",
+public contract,Noun,,Contrato
+public contracting,Noun,,
+public-private partnership,Noun,,alianza público privada
+public procurement,Noun,,compras públicas
+publication pattern,Noun,,Estándar de públicación
+publisher,Noun,,publicador
+rationale,Noun,,justificación
+record,Noun,,registro
+red flag,Noun,,
+relationship,Noun,,"Vinculación, relación"
+release,Noun,,entrega
+restricted procedure,Noun,,proceso excepcional
+reusable tools,Noun,,
+review body,Noun,,cuerpo de revisión
+role,Noun,,rol
+schema,Noun,,
+schema reference,Noun,"More or less synonym of ""documentation"".",
+service,Noun,,servicios
+signatory,Noun,,firmante
+standard,Noun,"""A rule or set of rules or requirements which are widely agreed upon or imposed by government."" (Wiktionary)",estándar
+standing offer,Noun,,convenio de suministros
+status,Noun,,estado
+string,Noun,,cadena
+subcontract,Noun,,subcontratación
+subcontractor,Noun,,subcontratista
+supplier,Noun,,proveedor
+tag,Noun,,etiqueta
+tender,Noun,,Licitación
+tender notice,Noun,,Aviso de publicación
+tenderer,Noun,,comprador
+tendering organization,Noun,,organización compradora
+transaction,Noun,,Transacción
+unique indentifier,Noun,,identificador único
+use case,Noun,,
+valid,Adjective,,valido
+validation,Noun,Validation involves a technical check on the way data is structured and formatted. http://standard.open-contracting.org/1.1/en/getting_started/validation/ ,Validación
+validator,Noun,,validador
+works,Noun,,trabajo
