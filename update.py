@@ -68,7 +68,7 @@ def main():
     discoveryServiceUrl = 'https://sheets.googleapis.com/$discovery/rest?version=v4'
     service = discovery.build('sheets', 'v4', http=http, discoveryServiceUrl=discoveryServiceUrl)
 
-    spreadsheetId = '1PvlA2WWtP9KJpnkhuYGx5ExHmHwwvaA54VX62piF86k'
+    spreadsheetId = '1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A'
     spreadsheet = service.spreadsheets().get(spreadsheetId=spreadsheetId).execute()
 
     valid_headers = ('term', 'pos', 'comment')
@@ -90,6 +90,8 @@ def main():
         else:
             basename = formatted(title)
 
+        comment_header = 'comment_{}'.format(basename)
+
         with open(os.path.join('glossaries', '{}.csv'.format(basename)), 'w') as f:
             writer = csv.writer(f, lineterminator='\n')
 
@@ -104,10 +106,10 @@ def main():
                 header = formatted(header)
 
                 # 'Definition' is used in Google Sheets for greater clarity for translators.
-                if header == 'definition':
-                    header = 'comment'
+                if header.startswith('definition'):
+                    header = header.replace('definition', 'comment')
 
-                if header in valid_headers or re.search(r'\A(?:comment_)?[a-z]{2}(?:_[A-Z]{2})?\Z', header):
+                if header in valid_headers or header in (basename, comment_header):
                     indices.append(index)
                     headers.append(header)
 
