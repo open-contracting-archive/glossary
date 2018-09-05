@@ -14,7 +14,7 @@ flags = argparse.ArgumentParser(parents=[tools.argparser]).parse_args()
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/sheets.googleapis.com-python-quickstart.json
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
-CLIENT_SECRET_FILE = 'client_secret.json'
+CLIENT_SECRET_FILE = 'credentials.json'
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
 
 
@@ -85,7 +85,10 @@ def main():
 
         result = service.spreadsheets().values().get(spreadsheetId=spreadsheetId, range=_range).execute()
 
-        if title == 'Source':
+        # Exclude non-data sheet.
+        if 'combined' in title:
+            pass
+        elif title == 'Source':
             basename = 'en'
         else:
             basename = formatted(title)
