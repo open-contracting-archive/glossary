@@ -85,10 +85,11 @@ def main():
 
         result = service.spreadsheets().values().get(spreadsheetId=spreadsheetId, range=_range).execute()
 
-        if title == 'Source':
-            basename = 'en'
-        elif 'combined' in title :
+        # Exclude non-data sheet.
+        if 'combined' in title:
             pass
+        elif title == 'Source':
+            basename = 'en'
         else:
             basename = formatted(title)
 

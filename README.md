@@ -1,45 +1,32 @@
 # Glossary
 
-This repository stories copies of the Open Contracting Data Standard glossary. 
+This repository serves as the single source of truth for the Open Contracting Data Standard glossaries, which support the consistent use and translation of key terms. The glossaries are updated [in Google Sheets](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=0), revision-controlled in this repository, and uploaded to Transifex, to be accessed by translators. For more information, see the [OCDS Development Handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/translation/terminology/).
 
-The glossary supports consistent use and translation of terms. 
+## Usage
 
-More details of the terminology and glossary process can be found in the [standard development handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/translation/terminology/#definition). 
+The `update.py` script uses the Google Sheets API to update the `glossaries` directory.
 
-## Updating glossaries
+### 1. Install dependencies
 
-This repository stores a revision controlled copy of the glossaries.
-
-Glossaries are currently edited [using Google sheets](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=0), with a copy of the glossary mirrored here, and in the Transifex translation platforms. 
-
-## Synchronisation
-
-The update.py script uses the Google Spreadsheet API to update the glossaries folder. 
-
-**Step 1: Install dependencies**
+Create and activate a virtual environment, then:
 
 ```
-virtualenv -p python3 .ve
-source .ve/bin/activate
-pip install -r requirements.txt
+pip install google-api-python-client
 ```
 
-**Step 2: Set-up authentication.**
+### 2. Set-up authentication
 
-Follow the instructions at https://developers.google.com/sheets/api/quickstart/python to enable the Google Spreadsheet API for an account that has read access to the glossary spreadsheet. 
+* [Enable the Google Sheets API](https://developers.google.com/sheets/api/quickstart/python) for an account that has read access to the [glossary spreadsheet](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=0)
+* Save the `credentials.json` file in this directory (it is ignored by git)
 
-Save the credentials.json file in this folder.
-
-**Step 3: Run and authenticate**
+### 3. Update glossaries
 
 ```
 python update.py
 ```
 
-The first time you run the script you may need to complete in-browser authentication. 
+The first time you run the script, you may need to complete in-browser authentication. 
 
-**Step 4: Manually update transifex glossaries**
+### 4. Manually update Transifex glossaries
 
-The combined tab of the spreadsheet, downloaded as CSV, can be used for this. 
-
-[Create](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#uploading-your-csv-file) or [update](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#updating-an-existing-glossary) the [glossaries](/glossaries) on [Transifex](https://www.transifex.com/OpenDataServices/).
+[Create](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#uploading-your-csv-file) or [update](https://docs.transifex.com/setup/glossary/uploading-an-existing-glossary#updating-an-existing-glossary) the [glossaries](/glossaries) on [Transifex](https://www.transifex.com/OpenDataServices/). Alternately, instead of uploading one CSV at a time, the spreadsheet's [combined tab](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=1568901331), downloaded as CSV, can be used for this.
