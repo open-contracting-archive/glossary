@@ -1,6 +1,6 @@
 # Glossary
 
-This repository serves as the single source of truth for the Open Contracting Data Standard glossaries, which support the consistent use and translation of key terms. The glossaries are updated [in Google Sheets](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=0), revision-controlled in this repository, and uploaded to Transifex, to be accessed by translators. For more information, see the [OCDS Development Handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/translation/terminology/).
+This repository serves as the single source of truth for the Open Contracting Data Standard glossaries, which support the consistent use and translation of key terms. The glossaries are updated [in Google Sheets](https://docs.google.com/spreadsheets/d/1WGH9_mHYuF4JbK2tdyeckqsmj8v4HrRqDOEbKQ7CI4A/edit#gid=0), revision-controlled in this repository, and uploaded to Transifex, to be accessed by translators. For more information, see the [OCDS Development Handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/translation/terminology.html).
 
 ## Usage
 
